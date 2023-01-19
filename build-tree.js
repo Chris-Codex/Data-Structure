@@ -84,3 +84,6 @@ const _input = [
     },
 ]
 
+buildTree(_input)
+
+

@@ -84,4 +84,3 @@ const _input = [
     },
 ]
 
-console.log("HOW ARRAY", buildTree(_input))

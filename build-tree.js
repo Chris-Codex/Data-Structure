@@ -11,5 +11,11 @@ const insertNodeInParent = (node, parent) => {
 };
 
 const buildTree = nodes => {
+    // Create a map of all nodes using their nodeId as the key
+    const nodeMap = new Map()
+    nodes.forEach(node => nodeMap.set(node.nodeId, node))
+
+
+    const rootNodes = []
 
 }
